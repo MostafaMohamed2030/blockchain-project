@@ -16,7 +16,7 @@ A simple blockchain implementation with client and miner management, transaction
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/blockchain-project.git
+git clone https://github.com/0xDesha/blockchain-project.git
 cd blockchain-project
 ```
 
