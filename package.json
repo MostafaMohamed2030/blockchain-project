@@ -1,0 +1,45 @@
+{
+  "name": "blockchain-project",
+  "version": "1.0.0",
+  "description": "A simple blockchain implementation with client and miner management, transaction handling, and network features",
+  "main": "src/start.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "cli": "node src/cli.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "mining",
+    "transactions",
+    "network"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "qrcode": "^1.5.4",
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "eslint": "^8.40.0",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/blockchain-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/blockchain-project/issues"
+  },
+  "homepage": "https://github.com/yourusername/blockchain-project#readme"
+}
